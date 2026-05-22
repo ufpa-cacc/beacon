@@ -4,32 +4,80 @@ A curated list of open-source projects, repositories, libraries, subject-specifi
 
 Contributions are welcomed.
 
-## Independent
+**calculadora-crg** - Simple client-side web app calculator for a Grade Point Average-like coefficient (CRG).
 
-Independent projects or projects that came from a specific course background, but also autonomous on their own.
+ - Authors: @marcosnevary.
 
-[calculadora-crg](https://github.com/marcosnevary/calculadora-crg) - Simple client-side web app calculator for a Grade Point Average-like coefficient (CRG).
+ - Links: [repository](https://github.com/marcosnevary/calculadora-crg).
 
-[pong-queue](https://github.com/marcosnevary/pong-queue). A queue-based 1v1 game tracker. Players line up, the top two compete, the winner stays and faces the next challenger. Tracks wins, losses, winrate and ELO.
+**pong-queue** - A queue-based 1v1 game tracker. Players line up, the top two compete, the winner stays and faces the next challenger. Tracks wins, losses, winrate and elo.
 
-[Jogo-da-Vida](https://github.com/nathil/Jogo-da-Vida). Javascript implementation of Conway's Game of Life using free-context language.
+ - Authors: @marcosnevary.
 
-## Subject-specific
+ - Links: [repository](https://github.com/marcosnevary/pong-queue).
 
-Assignments and notes related to specific subjects.
+**Jogo-da-Vida** - Javascript implementation of Conway's Game of Life using free-context language.
 
-Generic repositories names omitted.
+ - Authors: @nathil, @ofranbraga, @murilo-henrique060, @nathil, @TaygoCezar.
 
-**Data structures:**
+ - Links: [nathil's](https://github.com/nathil/Jogo-da-Vida).
 
- - [João Davi](https://github.com/JoaoDavi2302/Analise-de-algoritimos-de-ordena-o). Sorting algorithms (bubble, insert and select) tests in C.
+**Interpretador-Aritmetico-Python** - A calculator with a web frontend interface and a Python backend.
 
- - [Mateus Barreto](https://codeberg.org/seruna/estrutura-de-dados). Sorting algorithms tests in Java.
+ - Authors: @kmiepng.
 
-**Formal languages and automata:**
+ - Links: [repository](https://github.com/Arthur-Negrao-Smith/Interpretador-Aritmetico-Python).
 
- - [Arthur Negrão, Kamila Sarmanho & Italo Cavalcante - Interpretador-Aritmetico-Python](https://github.com/Arthur-Negrao-Smith/Interpretador-Aritmetico-Python). A calculator with a web frontend interface and a Python backend.
+**hanoi-sdl3-cairo** - Hanoi tower game and solver in C, using Cairo and SDL3.
 
-**Computational mathematics:**
+ - Authors: @seruna.
 
- - [Sara Matos](https://github.com/saracmts/Matematica_Computacional). Jupyter notes.
+ - Links: [repository](codeberg.org/seruna/hanoi-sdl3-cairo/).
+
+**http-server** - Simple HTTP server in C.
+
+ - Authors: @icaro-s16.
+
+ - Links: [repository](https://github.com/icaro-s16/http-server).
+
+**LFeAutomata** - An Automata and Formal Languages course assignment of textual pattern recognition using regular expressions. Implementation in Python.
+
+ - Authors: @DharioNewbery and @JoaoDavi2302.
+
+ - Links: [DharioNewbery's](https://github.com/DharioNewbery/LFeAutomata).
+
+**regex-automata-assigment** - An Automata and Formal Languages course assignment of textual pattern recognition using regular expressions. Implementation in C using PCRE2.
+
+ - Authors: @fabill_faaf and @seruna.
+
+ - Links: [seruna's](https://codeberg.org/seruna/regex-automata-assigment).
+
+**Assembly-exercises** - Nasm assembly exercises and tests.
+
+ - Authors: @icaro-s16.
+
+ - Links: [repository](https://github.com/icaro-s16/Assembly-exercises).
+
+**Matematica_Computacional** - saracmts's Jupyter notes on computational mathematics.
+
+ - Authors: @saracmts.
+
+ - Links: [repository](https://github.com/saracmts/Matematica_Computacional).
+
+**estrutura-de-dados** - Sorting algorithms tests in Java.
+
+ - Authors: @seruna.
+
+ - Links: [repository](https://codeberg.org/seruna/estrutura-de-dados).
+
+**Analise-de-algoritimos-de-ordena-o** - Sorting algorithms (bubble, insert and select) tests in C.
+
+ - Authors: @JoaoDavi2302.
+
+ - Links: [repository](https://github.com/JoaoDavi2302/Analise-de-algoritimos-de-ordena-o).
+
+**cobino** - A compact notation.
+
+ - Authors: @seruna.
+
+ - Links: [repository](https://codeberg.org/seruna/cobino).
