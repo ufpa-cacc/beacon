@@ -28,6 +28,18 @@ Contributions are welcomed.
 
  - Links: [repository](https://github.com/Arthur-Negrao-Smith/Interpretador-Aritmetico-Python).
 
+**latex-template-sbc-conferences-v2017** - Brazilian Computer Society LaTeX conference paper template for local usage with Tectonic and VS Code, close to the official Overleaf verision.
+
+ - Authors: @luiz-fleite.
+
+ - Links: [repository](https://github.com/luiz-fleite/latex-template-sbc-conferences-v2017).
+
+**unofficial-latex-template-sbc-v2017** - Rewritten Brazilian Computer Society LaTeX conference paper template with modern practices.
+
+ - Authors: @luiz-fleite.
+
+ - Links: [repository](https://github.com/luiz-fleite/unofficial-latex-template-sbc-v2017).
+
 **hanoi-sdl3-cairo** - Hanoi tower game and solver in C, using Cairo and SDL3.
 
  - Authors: @seruna.
