@@ -8,4 +8,12 @@ Repositório para organizar minhas coisas relacionadas ao curso de Ciência da C
 
 ## Importante
 
-Tarefa de Programação II: sistema para Olimpíadas. Até o dia 03/06/2026, às 13h59 (apesar de que o prazo pode estar mais a frente do que deveria).
+**Cálculo II (José Edilson Filho):**
+
+ - **Avaliação.** Data: 2026-06-18. Conteúdos: [log do dia 2026-06-02](log//2026-06-02.adoc).
+
+ - **Tarefa.** Início: 2026-06-02. Fim: 2026-06-09. Apenas para quem estava na aula do dia 2026-06-09, resolver 4 questões de máximo e 4 de mínimo e entregar na a próxima aula (em papel, feitas à mão), valendo 1 ponto extra, ou seja, a próxima prova vai valer 11 para essas pessoas. Sugestão de página: 885 (tem 18 questões).
+
+**Programação II (Josivan Reis):**
+
+ - **Tarefa.** Escolha de líderes e de stack para cada projeto final ([sistema educacional](assigments/progammin-2/educational-system.md) e [sistema de rastreamento de veículos](assigments/progammin-2/vehicle-tracker.md)).
