@@ -13,13 +13,13 @@ Data da próxima prova: 18/06/2026 (quinta-feira). Conteúdo:
 
  - Uma questão de ponto crítico.
 
-Para classificar ponto crítico: stem:[D_p = f_(xx) * f_(yy) - f_(xy)^2].
+Para classificar ponto crítico: stem:[D_p = f_(\x\x) * f_(yy) - (f_(xy))^2].
 
- - stem:[f_(xx) < 0] ou stem:[f_(xx) =< 0]: sela
+ - stem:[f_(\x\x) < 0] ou stem:[f_(\x\x) <= 0]: sela
 
- - stem:[f_(xx) > 0] e stem:[D_p > 0]: mínimo.
+ - stem:[f_(\x\x) > 0] e stem:[D_p > 0]: mínimo.
 
- - stem:[f_(xx) > 0] e stem:[D_p < 0]: máximo.
+ - stem:[f_(\x\x) > 0] e stem:[D_p < 0]: máximo.
 
 Exemplo: pontos críticos de stem:[f(x,y,z) = x^2 + (y-7)^2 + (z+10)^2]
 
@@ -65,7 +65,7 @@ x*cos(y) = 0
 
 Se stem:[k=2*n; n in ZZ], então stem:[y=2*n*pi]. Logo, stem:[cos(y)]
 
-Dois pontos críticos: stem:[(0, 2*n)] e stem:[P_2 = (0, 2*n+1)].
+Dois pontos críticos: stem:[(0, 2*n)] e stem:[(0, 2*n+1)].
 
 == Laboratório de sistemas operacionais (Flávia)
 
