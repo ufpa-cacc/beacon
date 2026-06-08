@@ -16,6 +16,6 @@ Repositório para organizar minhas coisas relacionadas ao curso de Ciência da C
 
 **Programação II (Josivan Reis):**
 
- - **Trabalho avaliativo.** Prazo: até 2026-07-08. [sistema educacional](assigments/progammin-2/educational-system.md) e [sistema de rastreamento de veículos](assigments/progammin-2/vehicle-tracker.md).
+ - **Trabalho avaliativo.** Prazo: até 2026-07-08. [sistema educacional](assigments/programming-2/educational-system.md) e [sistema de rastreamento de veículos](assigments/programming-2/vehicle-tracker.md).
 
  - **Dispensa de aula:** 2026-06-10 (quarta-feira). Log: [2026-06-08](log/2026-06-08.md).
