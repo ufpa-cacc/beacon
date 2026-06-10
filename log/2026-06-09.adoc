@@ -1,0 +1,85 @@
+== Cálculo II (José Edilson Filho)
+:stem: asciimath
+
+**Assunto:** Multiplicador de Lagrange.
+
+Exemplo: encontre o máximo ou mínimo de stem:[f(x,y) = x^2+2*y^2] sujeita à restrição stem:[x^2+y^2=1].
+
+[stem]
+++++
+g(x,y) = x^2+y^2-1
+grad(f) = lambda * grad(g) = (f_x(x,y), f_y(x,y)) = (2*x, 4*y)
+grad(g) = (g_x(x,y), g_y(x,y)) = (2*x, 2*y)
+(2*x, 4*y) = lambda * (2*x, 2*y)
+
+g(x,y) = 0
+
+2*x = lambda * 2*x
+4*y = lambda * 2*y
+x^2 + y^2 - 1 = 0
+
+x - lambda * x = 0 -> x * ( 1- lambda) = 0 -> x=0 vv lambda = 1
+2*y - lambda*y = 0 -> y*(2 - lambda) = 0 -> y=0 ou lambda=2
+
+x=0 ^^ lambda=1 -> x^2+y^2=1 -> 0^2+y^2=1 -> y= +-1
+P_1 = (0,1)
+P_2 = (0,-1)
+
+y=0 ^^ lambda=2 -> x^2+0^2=1 -> x = +-1
+P_3=(1,0)
+P_4=(-1,0)
+++++
+
+Substituindo em stem:[f(x,y) = x^2+y^2]:
+
+[stem]
+++++
+f(P_1) = f(0,1) = 0+2*1 = 2
+f(P_2) = f(0,-1) = 0+2*(-1)^2 = 2
+f(P_3) = f(1,0) = 1+0 = 1
+f(P_4) = f(-1,0) = (-1)^2+0 = 1
+++++
+
+stem:[P_1, P_2]: máximos.
+stem:[P_3, P_4]: mínimos.
+
+
+Exemplo: determine os pontos da esfera stem:[x^2+y^2+z^2=4] que estão mais próximos do ponto (3,1,-1).
+
+[stem]
+++++
+f(x,y,z) = sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+g(x,y,z) = 0 = x^2 + y^2 + z^2 - 4
+grad(f) = lambda * grad(g)
+grad(g) = (g_x, g_y, g_z) = (2*x, 2*y, 2*z)
+grad(f) = (f_x, f_y, f_z)
+f_x = (x-3)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+f_y = (y-1)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+f_z = (z+1)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+
+lambda*2*x = (x-3)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+lambda*2*y = (y-1)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+lambda*2*z = (z+1)/sqrt((x-3)^2 + (y-1)^2 + (z+1)^2)
+
+a = (lambda*2*x)^2 = (x-3)^2/((x-3)^2 + (y-1)^2 + (z+1)^2)
+b = (lambda*2*y)^2 = (y-1)^2/((x-3)^2 + (y-1)^2 + (z+1)^2)
+c = (lambda*2*z)^2 = (z+1)^2/((x-3)^2 + (y-1)^2 + (z+1)^2)
+
+a+b+c = 4*lambda^2*(x^2+y^2+z^2) = 4*lambda^2*4 = 16*lambda^2
+((x-3)^2 + (y-1)^2 + (z+1)^2)/((x-3)^2 + (y-1)^2 + (z+1)^2) = 16*lambda^2 = 1 -> lambda = +-(1/4)
+
+"..."
+"Erro."
+++++
+
+== Laboratório de sistemas operacionais (Flávia Monteiro)
+
+Aula cancelada.
+
+== Sistemas operacionais (Regiane Kawasaki)
+
+Aula antecipada.
+
+**Assunto:** gerência de memória.
+
+**Tarefa:** levantamento de gerência de processos no Linux e em algum outro sistema operacional à gosto, tanto no ambiente de kernel (chamadas de sistema e estruturas internas) quanto de usuário (os comandos). Deixar isso guardado para depois fazer o mesmo com o tema gerência de memória.

@@ -19,3 +19,11 @@ Repositório para organizar minhas coisas relacionadas ao curso de Ciência da C
  - **Trabalho avaliativo.** Prazo: até 2026-07-08. [sistema educacional](assigments/programming-2/educational-system.md) e [sistema de rastreamento de veículos](assigments/programming-2/vehicle-tracker.md).
 
  - **Dispensa de aula:** 2026-06-10 (quarta-feira). Log: [2026-06-08](log/2026-06-08.md).
+
+**Sistemas operacionais**:
+
+ - **Pesquisa para futuro trabalho avaliativo.** [Log 2026-06-09](log/2026-06-09.adoc). Sem prazo.
+
+**Laboratório de sistemas operacionais:**
+
+ - **Trabalho avaliativo.** Implementação de um mini-shell em C, com entrega de relatório. Prazo: 2026-06-12. [Referência](assigments/operating-systems-lab/mini-shell.md).
