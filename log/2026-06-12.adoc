@@ -1,0 +1,36 @@
+== Autômatos (Reginaldo)
+:stem: asciimath
+
+Professor entrará de férias no dia 2026-06-29.
+
+Expectativa: término do conteúdo ainda no mês de junho. Previsão de mais uma prova e mais um trabalho.
+
+Assunto: linguagens livres de contexto. Tópicos:
+
+ - Auto-recursividade.
+ - Não terminal essencial.
+ - Árvore de derivação.
+ - Ambiguidade gramatical.
+ - Árvores geradas por ambiguidade gramatical.
+ - Simplificação de gramáticas livres de contexto.
+   - Eliminação de produções em vazio.
+   - Eliminação de produções unitárias.
+ - Forma normal de Chomsky.
+
+OBS: forma normal de Greibach não será cobrada.
+
+Linguagens balanceadas são estritamente livres de contexto. Exemplo: stem:[{a^i b^i : i >= 0}].
+
+Gramática para stem:[a^i b^i : i <= j]:
+
+[source,bnf]
+----
+<E> ::= <E>B | A<E>B | e
+----
+
+Gramática para stem:[a^i b^i : i != j]:
+
+[source,bnf]
+----
+<E> ::= <E>B | A<E>B | e
+----
