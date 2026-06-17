@@ -1,0 +1,14 @@
+== Cálculo 2 (José Edilson Filho)
+:stem: asciimath
+
+**Revisão.**
+
+Exemplo (que pode estar na prova): prove que stem:[sqrt(x*y) <= (x+y)/2] usando multiplicadores de Lagrange.
+
+== Laboratório de Sistemas Operacionais (Flávia Monteiro)
+
+Aula cancelada. Reposição marcada para segunda.
+
+== Sistemas operacionais (Regiane Kawasaki)
+
+Aula cancelada.
