@@ -1,0 +1,22 @@
+== Cálculo 2 (José Edilson)
+:stem: asciimath
+
+Revisão breve de Cálculo 1: integrals.
+
+Monotonicidade de funções.
+
+Teorema da mudança de variável.
+
+Integração por partes e LIATE ou ILATE.
+
+Exercícios (resolver no quadro na próxima aula):
+
+[stem]
+++++
+a: sum(ln(x)*sin(x)dx)
+
+b: sum(sin^2(x)dx) = sum(sin(x)*sin(x))
+
+c: sum(e^x*ln(x)dx)
+++++
+
