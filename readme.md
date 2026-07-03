@@ -1,29 +1,76 @@
-## UFPA CS Beacon
+# UFPA Computer Science Beacon
 
-Repositório para organizar minhas coisas relacionadas ao curso de Ciência da Computação na UFPA. Essa versão não tem conteúdo individual, só informação geral. A ideia é poder bifurcar esse repositório para colocar a parte individual separada, assim outras pessoas podem fazer o mesmo.
+Repositório Git como um diário de estudo do **Curso de Ciência da Computação da UFPA**.
 
-`log/`: registro diário do que acontece nas turmas (pelo menos na que eu participo). Eu já fazia isso, então nada de novo. Mas quem quiser complementar com o seu POV pode também. Tem um arquivo para cada dia, no estilo `yyyy-mm-dd`, com os assuntos estudados, notas de aula, etc.
+Diretórios:
 
-`assigments/`: tarefas e trabalhos (sem resolução).
+  - [`log/`](log/readme.md): notas de aula.
+ 
+  - [`task/`](task/readme.md): tarefas.
 
-## Importante
+  - [`pin/`](pin/readme.md): coisas importantes para fazer em cada turma (referências a tarefas vigentes).
 
-**Cálculo II (José Edilson Filho):**
+  - [`doc/`](about/readme.md): curiosidades.
 
- - **Avaliação.** Data: 2026-06-18. Conteúdos: [log do dia 2026-06-02](log//2026-06-02.adoc).
+Os nomes das disciplinas eventualmente podem aparecer abreviados. Algumas delas são cursadas em mais de uma fase (semestre) e em modalidade teórica ou prática (laboratório), mas a abreviação descarta essas especificidades.
 
- - **Tarefa.** Início: 2026-06-02. Fim: 2026-06-09. Apenas para quem estava na aula do dia 2026-06-09, resolver 4 questões de máximo e 4 de mínimo e entregar na a próxima aula (em papel, feitas à mão), valendo 1 ponto extra, ou seja, a próxima prova vai valer 11 para essas pessoas. Sugestão de página: 885 (tem 18 questões).
+Nomes abreviados de (algumas) disciplinas:
 
-**Programação II (Josivan Reis):**
+| Abreviação | Disciplina |
+|-|-|
+| funmat | fundamentos de matemática |
+| lnalg | álgebra linear |
+| algo | algoritmos |
+| arch | organização e arquitetura de computadores |
+| prog | programação |
+| os | sistemas operacionais |
+| calc | cálculo |
+| hci | interação humano-computador |
+| disc | matemática discreta |
+| prob | probabilidade e estatística |
+| struct | estruturas de dados |
+| auto | linguagens formais e autômatos |
 
- - **Trabalho avaliativo.** Prazo: até 2026-07-08. [sistema educacional](assigments/programming-2/educational-system.md) e [sistema de rastreamento de veículos](assigments/programming-2/vehicle-tracker.md).
+## Contribuição
 
- - **Dispensa de aula:** 2026-06-10 (quarta-feira). Log: [2026-06-08](log/2026-06-08.md).
+Cada alteração é registrada no histórico por um commit, com um título conciso de idealmente até 60 caracteres, no seguinte formato:
 
-**Sistemas operacionais**:
+```
+tipo(escopo): mensagem
+```
 
- - **Pesquisa para futuro trabalho avaliativo.** [Log 2026-06-09](log/2026-06-09.adoc). Sem prazo.
+O `tipo` é aquilo que está sendo modificado, seguido de um `escopo` para especificar o alvo da modificação quando necessário, e a `mensagem` do título é uma descrição curta da modificação em si.
 
-**Laboratório de sistemas operacionais:**
+Cada nome de diretório (`log`, `task`, `pin` e `doc`) é um tipo de commit. Eles são os tipos principais. Seus respectivos readmes tem as informações sobre escopo.
 
- - **Trabalho avaliativo.** Implementação de um mini-shell em C, com entrega de relatório. Prazo: 2026-06-12. [Referência](assigments/operating-systems-lab/mini-shell.md).
+Também existem os de manutenção, que servem só para manter o repositório organizado e tem como escopo opcional um tipo principal:
+
+  - `chore`: tarefa simples, sem informações novas, como correções de erros de escrita.
+
+  - `meta`: mudança estrutural ou de convenção.
+
+Exemplos de commit de manutenção:
+
+```
+chore(log/2026-06-30): fix math formulas
+
+meta: change date format from dd/mm/yyyy to yyyy-mm-dd
+
+meta: add doc/ scope
+```
+
+O estilo das mensagens de commit é uma adaptação do [Conventional Commits](https://www.conventionalcommits.org).
+
+---
+
+> *Nos meus primeiros dois semestres eu não anotava nada e, bom, a falta de informação sempre virava uma bola de neve.*
+>
+> *Comecei a organizar as coisas melhor ao longo do terceiro semestre.*
+>
+> *As informações aqui estão longe de serem completas. Mas serve para mim. E é o que eu consigo deixar para talvez servir para alguém no futuro.*
+>
+> *Carinhosamente,*
+>
+> *Seruna*
+>
+> (❍ᴥ❍ʋ)
