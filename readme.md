@@ -4,7 +4,9 @@ Repositório Git como um diário de estudo do **Curso de Ciência da Computaçã
 
 Diretórios:
 
-  - [`log/`](log/readme.md): notas de aula.
+  - [`awesome/`](awesome/readme.md): lista selecionada de repositórios de estudantes.
+
+  - [`log/`](log/readme.md): anotações de aula.
  
   - [`task/`](task/readme.md): tarefas.
 
@@ -41,7 +43,7 @@ tipo(escopo): mensagem
 
 O `tipo` é aquilo que está sendo modificado, seguido de um `escopo` para especificar o alvo da modificação quando necessário, e a `mensagem` do título é uma descrição curta da modificação em si.
 
-Cada nome de diretório (`log`, `task`, `pin` e `doc`) é um tipo de commit. Eles são os tipos principais. Seus respectivos readmes tem as informações sobre escopo.
+Cada nome de diretório (`awesome`, `log`, `task`, `pin` e `doc`) é um tipo de commit. Eles são os tipos principais. Seus respectivos readmes tem as informações sobre escopo.
 
 Também existem os de manutenção, que servem só para manter o repositório organizado e tem como escopo opcional um tipo principal:
 
